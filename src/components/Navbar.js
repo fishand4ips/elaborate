@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {MdAirlineSeatLegroomReduced} from "react-icons/md";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Button} from "./Button";
+import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const showButton = () => {
+    const showButton  = () => {
         if (window.innerWidth <= 960) {
             setButton(false)
         } else {
