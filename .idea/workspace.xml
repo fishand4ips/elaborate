@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a45da3a1-c344-4285-87b7-69e81b34be4a" name="Default Changelist" comment="nav css">
-      <change afterPath="$PROJECT_DIR$/src/components/HeroSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeroSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/HomePage/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/HomePage/Home.js" afterDir="false" />
+    <list default="true" id="a45da3a1-c344-4285-87b7-69e81b34be4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pricing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Products/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Products/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Services/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Services/Services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/SignUp/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/SignUp/SignUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/Data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +50,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/pages/SignUp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jdev\elaborate\src\components\pages\SignUp" />
+      <recent name="D:\jdev\elaborate\src\components\pages\Services" />
+      <recent name="D:\jdev\elaborate\src\components\pages\HomePage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jdev\elaborate\src\components\pages\Products" />
       <recent name="D:\jdev\elaborate\src\components" />
     </key>
   </component>
@@ -79,7 +94,7 @@
       <updated>1604865807039</updated>
       <workItem from="1604865809612" duration="719000" />
       <workItem from="1604866795291" duration="1499000" />
-      <workItem from="1604868375465" duration="7371000" />
+      <workItem from="1604868375465" duration="12081000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1604869822018</created>
@@ -109,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604946727232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hero">
+      <created>1604949033087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604949033087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +142,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="button" />
     <MESSAGE value="nav css" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav css" />
+    <MESSAGE value="hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="hero" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604866484244">
@@ -131,30 +154,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="930" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1604866991887" />
-    <state x="825" y="24" key="CommitChangelistDialog2" timestamp="1604946741274">
+    <state x="825" y="24" key="CommitChangelistDialog2" timestamp="1604949031767">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="825" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604946741274" />
+    <state x="825" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604949031767" />
     <state x="1070" y="323" key="Github.ShareDialog" timestamp="1604946680157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1070" y="323" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1604946680157" />
-    <state width="387" height="221" key="GridCell.Tab.0.bottom" timestamp="1604867070316">
+    <state width="773" height="218" key="GridCell.Tab.0.bottom" timestamp="1604949928307">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="387" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604867070316" />
-    <state width="387" height="221" key="GridCell.Tab.0.center" timestamp="1604867070316">
+    <state width="773" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604949928307" />
+    <state width="773" height="218" key="GridCell.Tab.0.center" timestamp="1604949928307">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="387" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604867070316" />
-    <state width="387" height="221" key="GridCell.Tab.0.left" timestamp="1604867070316">
+    <state width="773" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604949928307" />
+    <state width="773" height="218" key="GridCell.Tab.0.left" timestamp="1604949928307">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="387" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604867070316" />
-    <state width="387" height="221" key="GridCell.Tab.0.right" timestamp="1604867070316">
+    <state width="773" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604949928307" />
+    <state width="773" height="218" key="GridCell.Tab.0.right" timestamp="1604949928307">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="387" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604867070316" />
+    <state width="773" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604949928307" />
     <state x="602" y="76" key="SettingsEditor" timestamp="1604868321173">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -163,10 +186,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="784" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604945998267" />
-    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604946788714">
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604949061014">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1604946788714" />
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1604949061014" />
     <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1604867620736">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

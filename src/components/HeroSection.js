@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button} from './Button';
 import {Link} from 'react-router-dom';
-import './HeroSection.css'
+import './HeroSection.css';
 
 
 function HeroSection({
@@ -27,7 +27,7 @@ function HeroSection({
                         </div>
                         <div className="col">
                             <div className="home__hero-img-wrapper">
-                                <img src={img} alt={alt}/>.home__hero-img
+                                <img src={img} alt={alt}/>
                             </div>
                         </div>
                     </div>
